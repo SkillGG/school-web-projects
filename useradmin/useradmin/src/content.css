@@ -1,0 +1,65 @@
+#content {
+  width: 75%;
+  margin-inline: auto;
+}
+article h2 {
+  text-align: center;
+}
+#content article {
+  margin: 0 auto;
+  margin-inline: auto;
+  padding: 25px;
+}
+
+#add {
+  border: 1px solid black;
+  background-color: lime;
+  padding: 15px;
+  color: black;
+  user-select: none;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+#add:hover {
+  transform: translate(-2px, -2px);
+}
+
+#add:active {
+  transform: translate(2px, 2px);
+  box-shadow: inset 1px 1px 1px 1px black;
+}
+
+article {
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.close {
+  border: none;
+  color: red;
+  position: relative;
+  display: block;
+  top: -30px;
+}
+
+textarea {
+  display: block;
+  width: 95%;
+  margin-inline: auto;
+}
+.edit {
+  font-size: 0.5em;
+  margin-left: 10px;
+  cursor: pointer;
+  user-select: none;
+}
+
+h2 .save {
+  display: inline-block;
+  font-size: 0.5em;
+}
+
+.save {
+  margin-inline: auto;
+  display: block;
+}

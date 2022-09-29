@@ -1,0 +1,23 @@
+/**
+* Ustaw biale tlo i czarny tekst
+*/
+body {
+  background-color: white;
+  color: black;
+}
+
+/**
+* Styl tabeli
+*/
+table {
+  min-width: 300px;
+  border-collapse: collapse; /* Usun podwojne krawedzie tabeli */
+}
+
+table td {
+  border: 1px solid black; /* Dodaj krawedzie tabeli */
+}
+
+td[colspan="3"]{
+  text-align: center; /* wysrodkuj element "dodaj przedmiot" */
+}
